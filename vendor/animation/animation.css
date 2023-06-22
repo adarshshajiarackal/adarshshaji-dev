@@ -1,0 +1,41 @@
+.loader {
+    border:3px solid rgb(16, 15, 15);
+    border-top: 3px solid white;
+    border-bottom:3px solid red;
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    animation: spin 5s linear infinite;
+  }
+  .loader1 {
+    border:3px solid black;
+    border-top: 3px solid red;
+    border-bottom:3px solid white;
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    animation: spin 5s linear infinite;
+  }
+  .loader2 {
+    border:3px solid white;
+    border-top: 3px solid black;
+    border-bottom:3px solid red;
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    animation: spin 5s linear infinite;
+  }
+  .loader3 {
+    border:3px solid white;
+    border-top: 3px solid red;
+    border-bottom:3px solid black;
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    animation: spin 5s linear infinite;
+  }
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

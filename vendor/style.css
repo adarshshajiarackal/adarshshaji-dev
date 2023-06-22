@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+   }
+   body{
+    margin: 0px auto;
+    padding: 0px 0px 0px 0px;
+   }
+.navbar{
+    background-color: rgb(0, 0, 0);
+    
+}
+.navbar-brand:hover{
+    color:white;
+    font-size: 30px;
+    padding-right: 120px;
+}
+.navbar-brand{
+    color:white;
+    font-size: 30px;
+    padding-right: 120px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: white;
+    padding-left: 50px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: white;
+    padding-left: 50px;
+    text-decoration: underline;
+}
+.hero{
+    width: 100%;
+    height:340px;
+    padding: 0px;
+    margin-left: 0px;
+    background-color: black;
+    background-image: url('../vendor/images/file_2023-06-07_16.03.58.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:115% 0%;
+}
+.hero-name{
+    position:relative;
+    top:30%;
+    
+}
+.hero-name::after{
+    content:"Adarsh Shaji";
+    color:white;
+    font-size:90px;
+    text-align: center;
+    justify-content: left;
+    position:relative;
+    top:30%;
+    letter-spacing:5px;
+}
+.hero-name::before{
+    content: "Web Developer, Web Designer,Trainer";
+    color: white;
+    font-size:30px;
+    justify-content: end;
+    position:absolute;
+    top:80%;
+    left:30%;
+    letter-spacing:5px;
+}
+ .about-me{
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+.about-me-description{
+    font-size: 20px;
+
+}
+.about-me-detials{
+    font-size: 20px;
+}
+.profile{
+    background-color: black;
+    width:100%;
+    height:50%;
+    padding-top: 30px;
+}
+.hard-skills{
+    padding-top: 0%;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+.hard-skills-head{
+    color:white;
+    font-size: 50px;
+
+}
+.hard-skills-subject{
+    color:white;
+    font-size: 20px;
+}
+.hard-skills-progress{
+    width:90%;
+    height:20px;
+    background-color: rgb(255, 255, 255);
+}
+#skillp{
+    height:100%;
+    background-color: red;
+    animation: skill 1000ms ease-in 1s;
+}
+.skillp{
+    width: 80%;
+}
+.skilld{
+    height:100%;
+    background-color: red;
+    animation: skill 1000ms ease-in 1s;
+}
+.skilld{
+    width: 70%;
+}
+.skillf{
+    height:100%;
+    background-color: red;
+    animation: skill 1000ms ease-in 1s;
+}
+.skillf{
+    width: 60%;
+}
+.skillphp{
+    height:100%;
+    background-color: red;
+    animation: skill 1000ms ease-in 1s;
+}
+.skillphp{
+    width: 65%;
+}
+.skilljs{
+    height:100%;
+    background-color: red;
+    animation: skill 1000ms ease-in 1s;
+}
+.skilljs{
+    width: 80%;
+}
+.skillcss{
+    height:100%;
+    background-color: red;
+    animation: skill 1000ms ease-in 1s;
+}
+.skillcss{
+    width: 90%;
+}
+.skillbs{
+    height:100%;
+    background-color: red;
+    animation: skill 1000ms ease-in 1s;
+}
+.skillbs{
+    width: 80%;
+}
+.skilljq{
+    height:100%;
+    background-color: red;
+    animation: skill 1000ms ease-in 1s;
+}
+.skilljq{
+    width: 70%;
+}
+@keyframes skill {
+    from{
+        width: 0%;
+    }
+}
+.sowftskills{
+    width: 100%;
+    height: 500px;
+    background-color: white !important;
+    padding-bottom: 30px;
+}
+.sowftskill-head{
+    font-size: 50px;
+}
+.sowftskill-icons{
+    width: 10px;
+    background-color: black;
+    animation: icon 1000ms ease-in 1;
+}
+
+.sowftskill-icons{
+    height: 30px;
+    width:30px;
+    border-radius: 20px;    
+    margin-top:40px;
+
+}
+.sowftskill-discription{
+    padding-left: 20px;
+    font-size: 30px;
+    margin-top:35px;
+    font-weight: bolder;
+    animation: description 1500ms ease-in;
+    animation-duration: 1500ms;
+    letter-spacing:10px;
+
+}
+@keyframes icon {
+   from {
+       height: 0px;
+    }
+}
+@keyframes description{
+    0%{
+        opacity: 0px;
+        color:white;
+        font-size: 0px;
+    }
+    20%{
+        color: aquamarine;
+    }
+}
+.portfolio{
+    background-color:black;
+    position: relative;
+    width: 100%;
+    height:340px;
+}
+.discription{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top:10%;
+}
+.discription-text{
+    color:white;
+    font-size: 50px;
+}
+.discription-text-shade{
+    color:white;
+    font-size: 50px;
+}
